@@ -1,0 +1,366 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-22T15:20:16.699Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4255480700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Get All Products",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-api-requests;get-all-products",
+        "after": [
+          {
+            "result": {
+              "duration": 2512533800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 977617100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The base URI is \"http://localhost:8082/medicare/json/data/all/products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8082/medicare/json/data/all/products\"",
+                  "offset": 16
+                }
+              ],
+              "location": "APIstepdef.the_base_uri_is(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1518786800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Perform the Get Operation",
+            "match": {
+              "location": "APIstepdef.i_perform_the_get_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26079900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "APIstepdef.response_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-22T15:20:26.033Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1600882800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Get Analgesics Product",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-api-requests;get-analgesics-product",
+        "after": [
+          {
+            "result": {
+              "duration": 258912700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3219900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The base URI is \"http://localhost:8082/medicare/json/data/category/2/products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8082/medicare/json/data/category/2/products\"",
+                  "offset": 16
+                }
+              ],
+              "location": "APIstepdef.the_base_uri_is(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40177600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Perform the Get Operation",
+            "match": {
+              "location": "APIstepdef.i_perform_the_get_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 515500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "APIstepdef.response_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-22T15:20:27.941Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1579707400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Get Most Viewed Medicines",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-api-requests;get-most-viewed-medicines",
+        "after": [
+          {
+            "result": {
+              "duration": 164017200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 817400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The base URI is \"http://localhost:8082/medicare/json/data/mv/products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8082/medicare/json/data/mv/products\"",
+                  "offset": 16
+                }
+              ],
+              "location": "APIstepdef.the_base_uri_is(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35335300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Perform the Get Operation",
+            "match": {
+              "location": "APIstepdef.i_perform_the_get_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 459800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "APIstepdef.response_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-22T15:20:29.724Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1558238900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Get Most Purchased Medicines",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-api-requests;get-most-purchased-medicines",
+        "after": [
+          {
+            "result": {
+              "duration": 154546500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2246000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The base URI is \"http://localhost:8082/medicare/json/data/mp/products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8082/medicare/json/data/mp/products\"",
+                  "offset": 16
+                }
+              ],
+              "location": "APIstepdef.the_base_uri_is(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34596000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Perform the Get Operation",
+            "match": {
+              "location": "APIstepdef.i_perform_the_get_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 419100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "APIstepdef.response_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to test the API Requests",
+    "description": "",
+    "id": "this-feature-would-be-used-to-test-the-api-requests",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/API.feature",
+    "tags": [
+      {
+        "name": "@API",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
